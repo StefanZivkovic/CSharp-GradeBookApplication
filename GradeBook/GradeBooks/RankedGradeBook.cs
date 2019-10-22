@@ -24,7 +24,6 @@ namespace GradeBook.GradeBooks
             else if (averageGrade > 20)
                 return 'D';
             return 'F';
-            //return base.GetLetterGrade(averageGrade);
         }
     }
 }
